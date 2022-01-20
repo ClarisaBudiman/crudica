@@ -23,7 +23,7 @@
                                         umur = '$_POST[tumur]'
                                       WHERE no = '$_GET[id]'
                                      ");
-    if ($edit) // jika edit sukses
+    if ($edit) // jika edit ukses
       {echo "<script>
               alert('edit Data Sukses!');
               document.location = 'index.php';
